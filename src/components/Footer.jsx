@@ -1,0 +1,63 @@
+
+export default function Footer() {
+  return (
+    <div className='bg-[#151515] text-white'>
+        <div>
+            {/* section 1 */}
+            <div className='w-[85%] mx-auto flex flex-col md:flex-row gap-3 md:gap-12 pt-10 pb-14'>
+                <div className='flex-3'>
+                    {/* logo */}
+                        <div className='w-[85px]'>
+                            <div className='h-[35px] w-[35px] mx-auto rounded-full bg-[#579B52] flex items-center justify-center'>
+                                <img src="/logo.svg" alt="" />
+                            </div>
+                            <div className='text-[1.10rem] text-center font-medium'>
+                                <span>Scrap</span>
+                                <span className='text-[#579B52]'>Seva</span>
+                            </div>
+                        </div>
+                    <p className='text-[1.125rem] font-light py-3 w-[75%] md:w-auto'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+                        has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+                    </p>
+                    <div className='flex gap-2 [&_img]:cursor-pointer'>
+                        <img src="facebook_icon.svg" alt="" />
+                        <img src="twitter_icon.svg" alt="" />
+                        <img src="linkdin_icon.svg" alt="" />
+                        <img src="insta_icon.svg" alt="" />
+                        <img src="youtube_icon.svg" alt="" />
+                    </div>
+
+                </div>
+
+                <div className='flex-1 py-10 md:py-0'>
+                    <h2 className='text-[#579B52] text-[1.25rem] font-medium'>Useful Links</h2>
+                    <ul className='list-disc ml-3 leading-8 pt-3 text-[1.125rem]'>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>Terms & Conditions</li>
+                        <li>Privacy & Policy</li>
+                    </ul>
+                </div>
+
+                <div className='flex-2'>
+                    <h2 className='text-[#579B52] text-[1.25rem] font-medium'>Get In Touch</h2>
+                    <div className='flex py-3'>
+                        <img className="mt-[-18px]" src="/location_sm.svg" alt="" />
+                        <p className='ml-3 text-[1.125rem]'>3rd Floor, Queens Arcade, Bilimora Road, Chikhli, Gujarat 396521</p>
+                    </div>
+                    <div className='flex py-3'>
+                        <img src="/message_sm.svg" alt="" />
+                        <p className='ml-3 text-[1.125rem]'>info@izonnet.com</p>
+                    </div>
+                </div>
+
+            </div>
+
+            {/* section 2 */}
+            <div className='w-full border-[#D9D9D9] border-t-[0.5px] py-4 mt-4 flex justify-center text-center'>
+                <p className='text-[1.125rem] w-[80%] md:w-auto'>Copyright © 2025 <span className='text-[#579B52]'>ScrapSeva</span> Design and Developed by <span className='text-[#579B52]'>Izonnet Web Solution Pvt. Ltd.</span></p>
+            </div>
+        </div>
+    </div>
+  )
+}
