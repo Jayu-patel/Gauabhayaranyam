@@ -74,14 +74,14 @@ export default function Service() {
         </div>
 
         <div className="mt-20">
-            <div className="flex flex-col md:flex-row gap-4 sm:gap-8 bg-[#F6F6F6] rounded-[1.125rem]">
-                <div className="w-full md:w-1/2 p-2 md:p-8">
+            <div className="flex flex-col lg:flex-row gap-4 sm:gap-8 bg-[#F6F6F6] rounded-[1.125rem]">
+                <div className="w-full lg:w-1/2 p-2 md:p-8">
                     <img className="w-full rounded-[1.125rem]" src="/video_image.png" alt="" />
                 </div>
-                <div className="w-full md:w-1/2 p-8">
+                <div className="w-full lg:w-1/2 p-4 md:p-8">
                     <h1 className="text-[1.50rem] text-[#579B52] font-semibold">Watch How ScrapSeva Works</h1>
-                    <p className="text-[#151515] text-[1.10rem] font-medium py-3">From doorstep pickup to community impact, see how your scrap donation creates change. Our short video takes you through the journey.</p>
-                    <ul className="list-disc text-[1.10rem] text-[#4F4F4F] font-medium [&_li]:ml-4 [&_li]:leading-8">
+                    <p className="text-[#151515] text-[1.05rem] md:text-[1.10rem] font-medium py-3">From doorstep pickup to community impact, see how your scrap donation creates change. Our short video takes you through the journey.</p>
+                    <ul className="list-disc md:text-[1.10rem] text-[#4F4F4F] font-medium [&_li]:ml-4 [&_li]:leading-8">
                         <li>Schedule scrap pickups in just a few taps</li>
                         <li>See how your donation is processed and valued</li>
                         <li>Know exactly where your donation goes</li>

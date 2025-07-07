@@ -14,7 +14,7 @@ export default function Contact() {
                 <div className='md:w-1/2 flex flex-col gap-4'>
                     <input className='bg-[#FFFFFF] rounded-[1.125rem] p-4 border border-[#D9D9D9]' placeholder='Name' type="text" />
                     <input className='bg-[#FFFFFF] rounded-[1.125rem] p-4 border border-[#D9D9D9]' placeholder='Your Email' type="text" />
-                    <textarea className='bg-[#FFFFFF] rounded-[1.125rem] p-4 border border-[#D9D9D9] h-[40%]' placeholder='Your Message' name="message"></textarea>
+                    <textarea className='bg-[#FFFFFF] rounded-[1.125rem] p-4 border border-[#D9D9D9] h-[40%] resize-none' placeholder='Your Message' name="message"></textarea>
                     <button className='bg-[#579B52] text-white py-[2.5%] rounded-[1.125rem]'>Send Meassage</button>
                 </div>
             </div>

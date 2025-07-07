@@ -2,7 +2,7 @@
 export default function Hero() {
   return (
     <div className='bg-[#F8F7F2] overflow-hidden pt-12 scroll-mt-20' id='home'>
-        <div className='w-[85%] mx-auto flex flex-col md:flex-row'>
+        <div className='w-[85%] mx-auto flex flex-col md:flex-row gap-0 md:gap-10 lg:gap-0'>
 
             <div className='md:w-1/2 md:pb-16'>
                 <div className='[&_h2]:text-[#579B52] [&_h2]:font-semibold'>

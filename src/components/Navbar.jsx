@@ -26,7 +26,7 @@ export default function Navbar() {
                 </ul>
 
                 {/*menu icon for mobile*/}
-                <img onClick={()=>{setShowMenu(true)}} className='w-6 sm:hidden mr-5 cursor-pointer' src="/menu_icon.svg" alt="" />
+                <img onClick={()=>{setShowMenu(true)}} className='w-6 sm:hidden mr-8 cursor-pointer' src="/menu_icon.svg" alt="" />
                 <div className={`${showMenu ? 'fixed w-full' : 'h-0 w-0'} sm:hidden right-0 top-0 bottom-0 z-20 overflow-hidden bg-white transition-all`}>
                 <img className='w-7 m-4 cursor-pointer' onClick={()=>{setShowMenu(false)}} src="/cross_icon.png" alt="" />
                 <ul className='flex flex-col items-center gap-4 mt-5 px-5 text-lg font-medium'>

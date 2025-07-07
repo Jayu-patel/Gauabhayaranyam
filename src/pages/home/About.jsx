@@ -1,8 +1,8 @@
 
 export default function About() {
   return (
-    <div className='w-[85%] mx-auto scroll-mt-18' id='about'>
-        <div className='[&>p]:text-[#4F4F4F] [&>p]:text-[1.10rem] py-12'>
+    <div className='w-[90%] lg:w-[85%] mx-auto scroll-mt-18' id='about'>
+        <div className='[&>p]:text-[#4F4F4F] [&_p]:text-[1.10rem] py-12'>
             <h1 className='text-3xl font-semibold'>About Us</h1>
             <p className='my-4'>ScrapSeva is a purpose-driven platform that empowers individuals to turn their unused household items into meaningful contributions. 
                 Our goal is simple yet impactful — collect reusable scrap and transform it into support for local charities, schools, and environmental initiatives.</p>
@@ -13,9 +13,9 @@ export default function About() {
 
         <div className='bg-[#579B52] rounded-[18px] flex flex-col lg:flex-row'>
             <div className='lg:w-1/2'>
-                <div className='p-8 text-white'>
-                    <h1 className='text-[2rem] font-semibold'>How Your Donation Helps</h1>
-                    <ul className='list-disc text-[1.25rem] ml-5 py-4 [&>li]:leading-8 font-medium'>
+                <div className='p-5 lg:p-8 text-white'>
+                    <h1 className='text-[1.70rem] md:text-[2rem] font-semibold'>How Your Donation Helps</h1>
+                    <ul className='list-disc text-[1.10rem] md:text-[1.25rem] ml-3 lg:ml-5 py-4 [&>li]:leading-8 font-medium'>
                         <li>Donated items are recycled to support shelters.</li>
                         <li>Scrap proceeds help feed rescued animals.</li>
                         <li>Every donation reduces waste and builds hope.</li>
@@ -23,7 +23,8 @@ export default function About() {
                     </ul>
                 </div>
             </div>
-            <div className='lg:w-1/2 p-5'>
+            <div className='lg:w-1/2 pb-5 lg:p-5'>
+            {/* <div className='lg:w-1/2 p-5'> */}
                 <div 
                     className='grid md:grid-cols-3 grid-cols-1 gap-3 w-full
                                md:[&>img]:w-[180px] md:[&>img]:h-[270px]
