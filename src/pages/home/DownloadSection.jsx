@@ -10,7 +10,7 @@ export default function DownloadSection() {
                     Whether you're decluttering your home or want to make a real difference, the ScrapSeva app helps you do good with just a 
                     few taps Track your donation status, schedule pickups, and see the real-world impact of your contribution — all in one place.
                 </p>
-                <div className='lg:[&_img]:w-[180px] [&_img]:w-[30%] flex mt-1'>
+                <div className='lg:[&_img]:w-[180px] [&_img]:w-[30%] [&_img]:cursor-pointer flex mt-1'>
                     <img src="/google_play.png" alt="" />
                     <img className='ml-5' src="/app_store.png" alt="" />
                 </div>

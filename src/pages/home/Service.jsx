@@ -10,14 +10,14 @@ export default function Service() {
                     <div className='p-6 py-10'>
                         <h1 className='text-[1.75rem] text-[#579B52] font-semibold'>Become a Volunteer</h1>
                         <p className='text-[1.20rem] text-[#4F4F4F] font-medium py-1'>Help organize pickups and create awareness. Get rewarded and recognized in your city.</p>
-                        <button className='text-white bg-[#579B52] px-5 py-3 mt-2 rounded-2xl cursor-pointer'>Sign Up to Volunteer</button>
+                        <button className='text-white bg-[#579B52] px-5 py-3 mt-2 rounded-2xl cursor-pointer hover:bg-[#40753c] transition-all duration-100'>Sign Up to Volunteer</button>
                     </div>
                 </div>
                 <div className='bg-[#F8F7F2] rounded-[18px]'>
                     <div className='p-6 py-10'>
                         <h1 className='text-[1.75rem] text-[#579B52] font-semibold'>Register as Scrap Dealer</h1>
                         <p className='text-[1.20rem] text-[#4F4F4F] font-medium py-1'>Get connected to pickups in your area. Process scrap and support charity.</p>
-                        <button className='text-white bg-[#579B52] px-5 py-3 mt-2 rounded-2xl cursor-pointer'>Partner as Dealer</button>
+                        <button className='text-white bg-[#579B52] px-5 py-3 mt-2 rounded-2xl cursor-pointer hover:bg-[#40753c] transition-all duration-100'>Partner as Dealer</button>
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@ export default function Service() {
                             [&_p]:text-[1.30rem] [&_p]:text-[#579B52] [&_p]:mt-[-8px] impact_boxes
             '>
 
-                <div className='h-[220px] w-[280px] bg-[#F6F6F6] rounded-[1.125rem]'>
+                <div className='h-[220px] w-[280px] bg-[#F6F6F6] rounded-[1.125rem] hover:translate-y-[-10px] transition-all duration-500'>
                     <div className='h-full w-full grid place-items-center'>
                         <div>
                             <img src="/animal_paw.svg" alt="" />
@@ -41,7 +41,7 @@ export default function Service() {
                     </div>
                 </div>
 
-                <div className='h-[220px] w-[280px] bg-[#F6F6F6] rounded-[1.125rem]'>
+                <div className='h-[220px] w-[280px] bg-[#F6F6F6] rounded-[1.125rem] hover:translate-y-[-10px] transition-all duration-500'>
                     <div className='h-full w-full grid place-items-center'>
                         <div>
                             <img src="/recycle.svg" alt="" />
@@ -51,7 +51,7 @@ export default function Service() {
                     </div>
                 </div> 
 
-                <div className='h-[220px] w-[280px] bg-[#F6F6F6] rounded-[1.125rem]'>
+                <div className='h-[220px] w-[280px] bg-[#F6F6F6] rounded-[1.125rem] hover:translate-y-[-10px] transition-all duration-500'>
                     <div className='h-full w-full grid place-items-center'>
                         <div>
                             <img src="/location.svg" alt="" />
@@ -61,7 +61,7 @@ export default function Service() {
                     </div>
                 </div>
 
-                <div className='h-[220px] w-[280px] bg-[#F6F6F6] rounded-[1.125rem]'>
+                <div className='h-[220px] w-[280px] bg-[#F6F6F6] rounded-[1.125rem] hover:translate-y-[-10px] transition-all duration-500'>
                     <div className='h-full w-full grid place-items-center'>
                         <div>
                             <img src="/group.svg" alt="" />

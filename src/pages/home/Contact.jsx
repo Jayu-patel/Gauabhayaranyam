@@ -15,7 +15,7 @@ export default function Contact() {
                     <input className='bg-[#FFFFFF] rounded-[1.125rem] p-4 border border-[#D9D9D9]' placeholder='Name' type="text" />
                     <input className='bg-[#FFFFFF] rounded-[1.125rem] p-4 border border-[#D9D9D9]' placeholder='Your Email' type="text" />
                     <textarea className='bg-[#FFFFFF] rounded-[1.125rem] p-4 border border-[#D9D9D9] h-[40%] resize-none' placeholder='Your Message' name="message"></textarea>
-                    <button className='bg-[#579B52] text-white py-[2.5%] rounded-[1.125rem]'>Send Meassage</button>
+                    <button className='bg-[#579B52] text-white py-[2.5%] rounded-[1.125rem] cursor-pointer hover:bg-[#40753c] transition-all duration-100'>Send Meassage</button>
                 </div>
             </div>
         </div>
