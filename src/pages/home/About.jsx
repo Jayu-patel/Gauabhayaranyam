@@ -24,7 +24,6 @@ export default function About() {
                 </div>
             </div>
             <div className='lg:w-1/2 pb-5 lg:p-5'>
-            {/* <div className='lg:w-1/2 p-5'> */}
                 <div 
                     className='grid md:grid-cols-3 grid-cols-1 gap-3 w-full
                                md:[&>img]:w-[180px] md:[&>img]:h-[270px]

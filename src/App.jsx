@@ -9,9 +9,11 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className='w-[100vw] font-[outfit]'>
+    <div className='w-[100vw]'>
       <Navbar/>
-      <div className='h-[30px] md:h-[65px] bg-[#F8F7F2] text-[#F8F7F2] scroll-mt-20' id='home'>.</div>
+      <div 
+        className='h-[30px] md:h-[65px] bg-[#F8F7F2] text-[#F8F7F2] scroll-mt-20' id='home'>.
+      </div>
       <Hero/>
       <About/>
       <Service/>

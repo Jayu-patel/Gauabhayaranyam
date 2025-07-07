@@ -25,10 +25,10 @@ export default function Service() {
 
         <div className='mt-8'>
             <h1 className='text-3xl font-semibold mb-5'>Our Impact So Far</h1>
-            <div className='flex justify-center md:justify-between flex-wrap gap-6 lg:gap-3 
+            <div className='flex justify-center md:justify-evenly lg:justify-between flex-wrap gap-6 
                             [&_img]:w-16 [&_img]:h-16 [&_img]:mx-auto text-center 
                             [&_h2]:mt-[10px] [&_h2]:text-[#112D4E] [&_h2]:font-semibold [&_h2]:text-[1.55rem]
-                            [&_p]:text-[1.30rem] [&_p]:text-[#579B52] [&_p]:mt-[-8px]
+                            [&_p]:text-[1.30rem] [&_p]:text-[#579B52] [&_p]:mt-[-8px] impact_boxes
             '>
 
                 <div className='h-[220px] w-[280px] bg-[#F6F6F6] rounded-[1.125rem]'>

@@ -4,7 +4,7 @@ export default function Footer() {
     <div className='bg-[#151515] text-white'>
         <div>
             {/* section 1 */}
-            <div className='w-[85%] mx-auto flex flex-col md:flex-row gap-3 md:gap-12 pt-10 pb-14'>
+            <div className='w-[85%] mx-auto flex flex-col lg:flex-row gap-3 lg:gap-12 pt-10 pb-14'>
                 <div className='flex-3'>
                     {/* logo */}
                         <div className='w-[85px]'>
@@ -16,7 +16,7 @@ export default function Footer() {
                                 <span className='text-[#579B52]'>Seva</span>
                             </div>
                         </div>
-                    <p className='text-[1.125rem] font-light py-3 w-[75%] md:w-auto'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+                    <p className='text-[1.125rem] font-light py-3 w-[75%] lg:w-auto'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
                         has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
                     </p>
                     <div className='flex gap-2 [&_img]:cursor-pointer'>
@@ -29,7 +29,7 @@ export default function Footer() {
 
                 </div>
 
-                <div className='flex-1 py-10 md:py-0'>
+                <div className='flex-1 py-10 lg:py-0'>
                     <h2 className='text-[#579B52] text-[1.25rem] font-medium'>Useful Links</h2>
                     <ul className='list-disc ml-3 leading-8 pt-3 text-[1.125rem]'>
                         <li>About Us</li>
@@ -55,7 +55,7 @@ export default function Footer() {
 
             {/* section 2 */}
             <div className='w-full border-[#D9D9D9] border-t-[0.5px] py-4 mt-4 flex justify-center text-center'>
-                <p className='text-[1.125rem] w-[80%] md:w-auto'>Copyright © 2025 <span className='text-[#579B52]'>ScrapSeva</span> Design and Developed by <span className='text-[#579B52]'>Izonnet Web Solution Pvt. Ltd.</span></p>
+                <p className='text-[1.125rem] w-[80%] lg:w-auto'>Copyright © 2025 <span className='text-[#579B52]'>ScrapSeva</span> Design and Developed by <span className='text-[#579B52]'>Izonnet Web Solution Pvt. Ltd.</span></p>
             </div>
         </div>
     </div>
