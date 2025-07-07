@@ -11,6 +11,7 @@ function App() {
   return (
     <div className='w-[100vw] font-[outfit]'>
       <Navbar/>
+      <div className='h-[77px] fixed top-0 bg-[#F8F7F2] text-[#F8F7F2]'>.</div>
       <Hero/>
       <About/>
       <Service/>
