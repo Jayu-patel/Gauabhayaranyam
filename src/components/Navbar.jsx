@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Logo from "./Logo"
 
 export default function Navbar() {
     const [showMenu, setShowMenu] = useState(false)
@@ -6,15 +7,9 @@ export default function Navbar() {
     return (
         <div className='bg-[#F8F7F2] flex justify-between z-50 top-0 sticky overflow-hidden'>
             
-            <div className='ml-[7.5%] py-2 w-24'>
+            <div className='ml-[7.5%] py-2'>
                 <a href="#home">
-                    <div className='h-[35px] w-[35px] rounded-full bg-[#579B52] mx-auto flex items-center justify-center'>
-                        <img src="/logo.svg" alt="" />
-                    </div>
-                    <div className='text-[1.10rem] text-center font-medium'>
-                        <span>Scrap</span>
-                        <span className='text-[#579B52]'>Seva</span>
-                    </div>
+                    <Logo/>
                 </a>
             </div>
 

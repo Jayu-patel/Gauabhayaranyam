@@ -1,3 +1,4 @@
+import Logo from "./Logo";
 
 export default function Footer() {
   return (
@@ -7,14 +8,8 @@ export default function Footer() {
             <div className='w-[85%] mx-auto flex flex-col lg:flex-row gap-3 lg:gap-12 pt-10 pb-14'>
                 <div className='flex-3'>
                     {/* logo */}
-                        <div className='w-[85px]'>
-                            <div className='h-[35px] w-[35px] mx-auto rounded-full bg-[#579B52] flex items-center justify-center'>
-                                <img src="/logo.svg" alt="" />
-                            </div>
-                            <div className='text-[1.10rem] text-center font-medium'>
-                                <span>Scrap</span>
-                                <span className='text-[#579B52]'>Seva</span>
-                            </div>
+                        <div>
+                            <Logo/>
                         </div>
                     <p className='text-[1.125rem] font-light py-3 w-[75%] lg:w-auto'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
                         has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
