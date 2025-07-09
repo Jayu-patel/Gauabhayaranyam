@@ -10,14 +10,18 @@ body{
   font-family: 'Outfit', sans-serif;
 }
 
-@media screen and (max-width: 450px) {
-  .hero{
-    margin-top: -100px;
-  }
+@media screen and (max-width: 610px) {
+  .hero{ margin-top: -50px; }
+}
+
+@media screen and (max-width: 490px) {
+  .hero{ margin-top: -100px; }
+}
+
+@media screen and (max-width: 400px) {
+  .hero{ width: 90%; }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1050px){
-  .impact_boxes{
-    justify-content: space-evenly;
-  }
+  .impact_boxes{ justify-content: space-evenly; }
 }

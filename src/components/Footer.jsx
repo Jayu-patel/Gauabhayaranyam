@@ -11,8 +11,8 @@ export default function Footer() {
                         <div>
                             <Logo/>
                         </div>
-                    <p className='text-[1.125rem] font-light py-3 w-[75%] lg:w-auto'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
-                        has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+                    <p className='text-[1.125rem] font-light py-3 w-[75%] lg:w-auto'>ScrapSeva is a platform that helps you turn unused items into 
+                        meaningful impact. Our mission has been inspiring homes to contribute since we began this journey.
                     </p>
                     <div className='flex gap-2 [&_img]:cursor-pointer [&_img]:hover:translate-y-[-10px] [&_img]:transition-all [&_img]:duration-500'>
                         <img src="facebook_icon.svg" alt="" />

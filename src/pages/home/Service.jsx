@@ -73,7 +73,7 @@ export default function Service() {
             </div>
         </div>
 
-        <div className="mt-20">
+        {/* <div className="mt-20 scroll-mt-24">
             <div className="flex flex-col lg:flex-row gap-4 sm:gap-8 bg-[#F6F6F6] rounded-[1.125rem]">
                 <div className="w-full lg:w-1/2 p-2 md:p-8">
                     <img className="w-full rounded-[1.125rem]" src="/video_image.png" alt="" />
@@ -91,7 +91,7 @@ export default function Service() {
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> */}
 
     </div>
   )
