@@ -16,8 +16,8 @@ function App() {
         className='h-[30px] bg-[#F8F7F2] text-[#F8F7F2] scroll-mt-20' id='home'>.
       </div>
       <Home/>
-      <HowItWorks/>
       <About/>
+      <HowItWorks/>
       <Service/>
       <DownloadSection/>
       <Contact/>
