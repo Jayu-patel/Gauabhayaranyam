@@ -1,6 +1,8 @@
+import { useState } from "react";
 
 export default function Home() {
-  return (
+    const [firstClick, setFirstClick] = useState(true)
+    return (
     <div className='bg-[#F8F7F2] overflow-hidden'>
         <div className='w-[90%] sm:[85%] mx-auto flex flex-col lg:flex-row gap-5 md:gap-10 lg:gap-0'>
 
@@ -21,7 +23,10 @@ export default function Home() {
                     onClick={(e)=>{
                         e.target.controls = true;
                         setTimeout(() => {
-                            e.target.play();
+                            if(firstClick) {
+                                e.target.play();
+                                setFirstClick(false);
+                            }
                         }, 200);
                     }}
                 >
@@ -32,5 +37,5 @@ export default function Home() {
             </div>
         </div>
     </div>
-  )
+    )
 }
