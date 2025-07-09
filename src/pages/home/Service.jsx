@@ -1,7 +1,7 @@
 
 export default function Service() {
   return (
-    <div className='w-[85%] mx-auto py-14 scroll-mt-16' id="services">
+    <div className='w-[85%] mx-auto py-14 scroll-mt-22' id="services">
 
         <div>
             <h1 className='text-3xl font-semibold mb-5'>Join Our Mission</h1>
@@ -72,27 +72,6 @@ export default function Service() {
                 </div>
             </div>
         </div>
-
-        {/* <div className="mt-20 scroll-mt-24">
-            <div className="flex flex-col lg:flex-row gap-4 sm:gap-8 bg-[#F6F6F6] rounded-[1.125rem]">
-                <div className="w-full lg:w-1/2 p-2 md:p-8">
-                    <img className="w-full rounded-[1.125rem]" src="/video_image.png" alt="" />
-                </div>
-                <div className="w-full lg:w-1/2 p-4 md:p-8">
-                    <h1 className="text-[1.75rem] text-[#579B52] font-semibold">Watch How ScrapSeva Works</h1>
-                    <p className="text-[#151515] text-[1.10rem] md:text-[1.25rem] font-medium py-3">From doorstep pickup to community impact, see how your scrap donation creates change. Our short video takes you through the journey.</p>
-                    <ul className="list-disc text-[1.10rem] md:text-[1.25rem] text-[#4F4F4F] font-medium [&_li]:ml-2 md:[&_li]:ml-4 [&_li]:leading-8">
-                        <li>Schedule scrap pickups in just a few taps</li>
-                        <li>See how your donation is processed and valued</li>
-                        <li>Know exactly where your donation goes</li>
-                        <li>Join a network of eco-conscious donors and volunteers</li>
-                        <li>Schedule scrap pickups in just a few taps</li>
-                        <li>Know exactly where your donation goes</li>
-                    </ul>
-                </div>
-            </div>
-        </div> */}
-
     </div>
   )
 }

@@ -11,7 +11,7 @@ export default function Footer() {
                         <div>
                             <Logo/>
                         </div>
-                    <p className='text-[1.125rem] font-light py-3 w-[75%] lg:w-auto'>ScrapSeva is a platform that helps you turn unused items into 
+                    <p className='text-[1.125rem] font-light py-3 w-[75%] lg:w-auto'>Gauabhayaranyam is a platform that helps you turn unused items into 
                         meaningful impact. Our mission has been inspiring homes to contribute since we began this journey.
                     </p>
                     <div className='flex gap-2 [&_img]:cursor-pointer [&_img]:hover:translate-y-[-10px] [&_img]:transition-all [&_img]:duration-500'>
@@ -50,7 +50,7 @@ export default function Footer() {
 
             {/* section 2 */}
             <div className='w-full border-[#D9D9D9] border-t-[0.5px] py-4 mt-4 flex justify-center text-center'>
-                <p className='text-[1.125rem] w-[80%] lg:w-auto'>Copyright © 2025 <span className='text-[#579B52]'>ScrapSeva</span> Design and Developed by <span className='text-[#579B52]'>Izonnet Web Solution Pvt. Ltd.</span></p>
+                <p className='text-[1.125rem] w-[80%] lg:w-auto'>Copyright © 2025 <span className='text-[#579B52]'>Gauabhayaranyam</span> Design and Developed by <span className='text-[#579B52]'>Izonnet Web Solution Pvt. Ltd.</span></p>
             </div>
         </div>
     </div>

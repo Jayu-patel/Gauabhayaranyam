@@ -37,7 +37,7 @@ export default function Navbar() {
                 <ul className='flex flex-col items-center gap-4 mt-5 px-5 text-lg font-medium'>
                     {
                         links.map((link,index)=>{
-                            return <a key={index} href={link.href}>{link.name}</a>
+                            return <a onClick={()=>{setShowMenu(false)}} key={index} href={link.href}>{link.name}</a>
                         })
                     }
                 </ul>

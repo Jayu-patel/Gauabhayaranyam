@@ -1,13 +1,13 @@
 
 export default function About() {
   return (
-    <div className='w-[85%] mx-auto scroll-mt-18' id='about'>
+    <div className='w-[85%] mx-auto scroll-mt-22 md:scroll-mt-28' id='about'>
         <div className='[&>p]:text-[#4F4F4F] [&_p]:text-[1.10rem] md:[&_p]:text-[1.25rem] py-12'>
             <h1 className='text-3xl font-semibold'>About Us</h1>
-            <p className='my-4'>ScrapSeva is a purpose-driven platform that empowers individuals to turn their unused household items into meaningful contributions. 
+            <p className='my-4'>Gauabhayaranyam is a purpose-driven platform that empowers individuals to turn their unused household items into meaningful contributions. 
                 Our goal is simple yet impactful — collect reusable scrap and transform it into support for local charities, schools, and environmental initiatives.</p>
 
-            <p>We're building a movement where every home can become a source of change. Whether you're a donor, a volunteer, or a partner, ScrapSeva gives you the tools 
+            <p>We're building a movement where every home can become a source of change. Whether you're a donor, a volunteer, or a partner, Gauabhayaranyam gives you the tools 
                 to make a real difference — right from your doorstep.</p>
         </div>
 

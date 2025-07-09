@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <div className='bg-[#F8F7F2] overflow-hidden'>
-        <div className='w-[85%] mx-auto flex flex-col lg:flex-row gap-5 md:gap-10 lg:gap-0'>
+        <div className='w-[90%] sm:[85%] mx-auto flex flex-col lg:flex-row gap-5 md:gap-10 lg:gap-0'>
 
             <div className='lg:w-1/2'>
                 <div className='[&_h2]:text-[#579B52] [&_h2]:font-semibold lg:mt-8'>
@@ -15,7 +15,16 @@ export default function Home() {
 
             <div className="w-full lg:w-1/2 p-2 lg:pb-4">
 
-                <video className="w-full aspect-video" controls poster="/video_image.png">
+                <video 
+                    className="w-full aspect-video object-cover rounded-3xl" 
+                    poster="/video_image.png" 
+                    onClick={(e)=>{
+                        e.target.controls = true;
+                        setTimeout(() => {
+                            e.target.play();
+                        }, 200);
+                    }}
+                >
                     <source src="/videos/sample.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>

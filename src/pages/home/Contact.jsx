@@ -1,7 +1,7 @@
 
 export default function Contact() {
   return (
-    <div className='w-[85%] pt-14 md:pt-0 mx-auto mb-10 scroll-mt-20' id='contact'>
+    <div className='w-[85%] pt-14 md:pt-0 mx-auto mb-10 scroll-mt-22 md:scroll-mt-28' id='contact'>
 
         <h1 className='text-3xl font-semibold mb-5'>Get In Touch</h1>
         <div className='bg-[#F6F6F6] rounded-[1.125rem]'>
