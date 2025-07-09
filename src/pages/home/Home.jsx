@@ -1,5 +1,5 @@
 
-export default function Hero() {
+export default function Home() {
   return (
     <div className='bg-[#F8F7F2] overflow-hidden'>
         <div className='w-[85%] mx-auto flex flex-col lg:flex-row gap-5 md:gap-10 lg:gap-0'>

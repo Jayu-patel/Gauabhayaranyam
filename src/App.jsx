@@ -6,6 +6,7 @@ import DownloadSection from './pages/home/DownloadSection'
 import Contact from './pages/home/Contact'
 import Footer from './components/Footer'
 import HowItWorks from './pages/home/HowItWorks'
+import Home from './pages/home/Home'
 
 function App() {
   return (
