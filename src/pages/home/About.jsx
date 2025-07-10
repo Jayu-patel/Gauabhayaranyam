@@ -1,7 +1,7 @@
 
 export default function About() {
   return (
-    <div className='w-[85%] mx-auto scroll-mt-22 md:scroll-mt-28' id='about'>
+    <div className='w-[85%] mx-auto'>
         <div className='[&>p]:text-[#4F4F4F] [&_p]:text-[1.10rem] md:[&_p]:text-[1.25rem] py-12'>
             <h1 className='text-3xl font-semibold'>About Us</h1>
             <p className='my-4'>Gauabhayaranyam is a purpose-driven platform that empowers individuals to turn their unused household items into meaningful contributions. 

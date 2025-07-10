@@ -1,7 +1,7 @@
 
 export default function Service() {
   return (
-    <div className='w-[85%] mx-auto py-14 scroll-mt-22' id="services">
+    <div className='w-[85%] mx-auto py-14'>
 
         <div>
             <h1 className='text-3xl font-semibold mb-5'>Join Our Mission</h1>

@@ -1,7 +1,7 @@
 
 export default function DownloadSection() {
   return (
-    <div className='w-[85%] mx-auto gap-5 lg:gap-1 flex flex-col-reverse lg:flex-row my-2 md:pb-8 scroll-mt-18 md:scroll-mt-28' id='download'>
+    <div className='w-[85%] mx-auto gap-5 lg:gap-1 flex flex-col-reverse lg:flex-row my-2 md:pb-8'>
         
         <div className='lg:flex-3 flex-1 flex items-center md:ml-20'>
             <div>

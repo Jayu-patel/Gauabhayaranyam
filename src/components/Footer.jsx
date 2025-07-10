@@ -9,7 +9,9 @@ export default function Footer() {
                 <div className='flex-3'>
                     {/* logo */}
                         <div>
-                            <Logo/>
+                            <div className='w-22 sm:w-28 bg-white'>
+                                <img src="/logo.png" alt="" />
+                            </div>
                         </div>
                     <p className='text-[1.125rem] font-light py-3 w-[75%] lg:w-auto'>Gauabhayaranyam is a platform that helps you turn unused items into 
                         meaningful impact. Our mission has been inspiring homes to contribute since we began this journey.

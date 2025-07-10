@@ -1,7 +1,7 @@
 
 export default function HowItWorks() {
   return (
-    <div className='w-[90%] mx-auto scroll-mt-24 md:scroll-mt-32' id="how_it_works">
+    <div className='w-[90%] mx-auto'>
         <div className="mt-8 overflow-hidden">
             <div className="flex flex-col lg:flex-row gap-4 sm:gap-8 bg-[#F6F6F6] rounded-[1.125rem]">
                 <div className='lg:w-1/2 mx-auto lg:ml-10 hero h-[350px] sm:h-[450px] w-[70%] lg:h-auto relative overflow-hidden mb-8'>

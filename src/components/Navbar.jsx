@@ -1,15 +1,16 @@
 import { useState } from "react"
 import Logo from "./Logo"
+import { Link } from "react-scroll"
 
 export default function Navbar() {
     const [showMenu, setShowMenu] = useState(false)
     const [links, setLinks] = useState([
-        { name: "Home", href: "#home" },        
-        { name: "About", href: "#about" },
-        { name: "How It Works", href: "#how_it_works" },
-        { name: "Services", href: "#services" },
-        { name: "Download", href: "#download" },
-        { name: "Contact Us", href: "#contact" }
+        { name: "Home", to: "home" },        
+        { name: "About", to: "about" },
+        { name: "How It Works", to: "how-it-works" },
+        { name: "Services", to: "services" },
+        { name: "Download", to: "download-section" },
+        { name: "Contact Us", to: "contact" }
     ])
     
     return (
@@ -22,10 +23,10 @@ export default function Navbar() {
             </div>
 
             <div className='flex items-center'>
-                <ul className='hidden md:flex justify-between md:w-[70vw] lg:w-[700px] mr-[15%] [&>li]:cursor-pointer'>
+                <ul className='hidden md:flex justify-between md:w-[70vw] lg:w-[700px] mr-[15%]'>
                     {
                         links.map((link,index)=>{
-                            return <a key={index} href={link.href}>{link.name}</a>
+                            return <Link key={index} to={link.to} className="cursor-pointer" offset={-120} smooth={true} duration={200}>{link.name}</Link>
                         })
                     }
                 </ul>
@@ -37,7 +38,18 @@ export default function Navbar() {
                 <ul className='flex flex-col items-center gap-4 mt-5 px-5 text-lg font-medium'>
                     {
                         links.map((link,index)=>{
-                            return <a onClick={()=>{setShowMenu(false)}} key={index} href={link.href}>{link.name}</a>
+                            return (
+                                <Link
+                                    className="cursor-pointer"
+                                    key={index}
+                                    to={link.to}
+                                    offset={-88} smooth={true}
+                                    duration={200}
+                                    onClick={()=>{setShowMenu(false)}}
+                                >
+                                        {link.name}
+                                </Link>
+                            )
                         })
                     }
                 </ul>
