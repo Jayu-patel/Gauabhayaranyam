@@ -19,7 +19,7 @@ export default function Home() {
 
                 <video 
                     className="w-full aspect-video object-cover rounded-3xl" 
-                    poster="/video_image.png" 
+                    poster="/video_image.png"
                     onClick={(e)=>{
                         e.target.controls = true;
                         setTimeout(() => {

@@ -34,7 +34,7 @@ export default function Service() {
                 <div className='h-[220px] w-[280px] bg-[#F6F6F6] rounded-[1.125rem] hover:translate-y-[-10px] transition-all duration-500'>
                     <div className='h-full w-full grid place-items-center'>
                         <div>
-                            <img src="/animal_paw.svg" alt="" />
+                            <img loading="lazy" src="/animal_paw.svg" alt="" />
                             <h2>5000+</h2>
                             <p>Animal Helped</p>
                         </div>
@@ -44,7 +44,7 @@ export default function Service() {
                 <div className='h-[220px] w-[280px] bg-[#F6F6F6] rounded-[1.125rem] hover:translate-y-[-10px] transition-all duration-500'>
                     <div className='h-full w-full grid place-items-center'>
                         <div>
-                            <img src="/recycle.svg" alt="" />
+                            <img loading="lazy" src="/recycle.svg" alt="" />
                             <h2>3,000 Kg</h2>
                             <p>Donations Processed</p>
                         </div>
@@ -54,7 +54,7 @@ export default function Service() {
                 <div className='h-[220px] w-[280px] bg-[#F6F6F6] rounded-[1.125rem] hover:translate-y-[-10px] transition-all duration-500'>
                     <div className='h-full w-full grid place-items-center'>
                         <div>
-                            <img src="/location.svg" alt="" />
+                            <img loading="lazy" src="/location.svg" alt="" />
                             <h2>120+</h2>
                             <p>Cities Covered</p>
                         </div>
@@ -64,7 +64,7 @@ export default function Service() {
                 <div className='h-[220px] w-[280px] bg-[#F6F6F6] rounded-[1.125rem] hover:translate-y-[-10px] transition-all duration-500'>
                     <div className='h-full w-full grid place-items-center'>
                         <div>
-                            <img src="/group.svg" alt="" />
+                            <img loading="lazy" src="/group.svg" alt="" />
                             <h2>500+</h2>
                             <p>Volunteers</p>
                         </div>

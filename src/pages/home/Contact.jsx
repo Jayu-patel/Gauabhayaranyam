@@ -8,7 +8,7 @@ export default function Contact() {
             <div className='p-4 md:p-10 flex flex-col md:flex-row gap-5 md:gap-8'>
 
                 <div className='md:w-1/2'>
-                    <img className='rounded-[1.125rem]' src="/contact.png" alt="" />
+                    <img loading="lazy" className='rounded-[1.125rem]' src="/contact.png" alt="" />
                 </div>
 
                 <div className='md:w-1/2 flex flex-col gap-4'>

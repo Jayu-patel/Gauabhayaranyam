@@ -31,9 +31,9 @@ export default function About() {
                                [&>img]:object-cover [&>img]:rounded-4xl [&>img]:border-5 [&>img]:border-white [&>img]:mx-auto
 
                     '>
-                    <img src="/about_1.png" alt="" />
-                    <img src="/about_2.png" alt="" />
-                    <img src="/about_3.png" alt="" />
+                    <img src="/about_1.png" loading="lazy" alt="" />
+                    <img src="/about_2.png" loading="lazy" alt="" />
+                    <img src="/about_3.png" loading="lazy" alt="" />
                 </div>
             </div>
         </div>

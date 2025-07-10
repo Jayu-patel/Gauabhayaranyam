@@ -11,14 +11,14 @@ export default function DownloadSection() {
                     few taps Track your donation status, schedule pickups, and see the real-world impact of your contribution — all in one place.
                 </p>
                 <div className='[&_img]:cursor-pointer flex mt-1'>
-                    <img className="w-32 sm:w-44" src="/google_play.png" alt="" />
-                    <img className="w-32 sm:w-44 ml-5" src="/app_store.png" alt="" />
+                    <img loading="lazy" className="w-32 sm:w-44" src="/google_play.png" alt="" />
+                    <img loading="lazy" className="w-32 sm:w-44 ml-5" src="/app_store.png" alt="" />
                 </div>
             </div>
         </div>
 
         <div className='lg:flex-2 flex-1'>
-            <img src="/mobile_image.png" alt="" />
+            <img loading="lazy" src="/mobile_image.png" alt="" />
         </div>
 
     </div>

@@ -6,9 +6,9 @@ export default function HowItWorks() {
             <div className="flex flex-col lg:flex-row gap-4 sm:gap-8 bg-[#F6F6F6] rounded-[1.125rem]">
                 <div className='lg:w-1/2 mx-auto lg:ml-10 hero h-[350px] sm:h-[450px] w-[70%] lg:h-auto relative overflow-hidden mb-8'>
                     <div>
-                        <img className='xl:w-[260px] lg:w-[200px] w-[50%] z-20 absolute bottom-0 lg:left-[60px] left-[10%]' src="/hero_1.png" alt="" />
-                        <img className='xl:w-[280px] lg:w-[220px] w-[50%] z-30 absolute bottom-[-40px] lg:left-[200px] left-[40%] scale-x-[-1]' src="/hero_2.png" alt="" />
-                        <img className='xl:w-auto lg:w-[80%] w-[100%] absolute bottom-0 lg:left-4 left-0' src="/blob.svg" alt="" />
+                        <img loading="lazy" className='xl:w-[260px] lg:w-[200px] w-[50%] z-20 absolute bottom-0 lg:left-[60px] left-[10%]' src="/hero_1.png" alt="" />
+                        <img loading="lazy" className='xl:w-[280px] lg:w-[220px] w-[50%] z-30 absolute bottom-[-40px] lg:left-[200px] left-[40%] scale-x-[-1]' src="/hero_2.png" alt="" />
+                        <img loading="lazy" className='xl:w-auto lg:w-[80%] w-[100%] absolute bottom-0 lg:left-4 left-0' src="/blob.svg" alt="" />
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 p-4 md:p-8">

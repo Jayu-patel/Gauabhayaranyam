@@ -10,18 +10,18 @@ export default function Footer() {
                     {/* logo */}
                         <div>
                             <div className='w-22 sm:w-28 bg-white'>
-                                <img src="/logo.png" alt="" />
+                                <img src="/logo.png" loading="lazy" alt="" />
                             </div>
                         </div>
                     <p className='text-[1.125rem] font-light py-3 w-[75%] lg:w-auto'>Gauabhayaranyam is a platform that helps you turn unused items into 
                         meaningful impact. Our mission has been inspiring homes to contribute since we began this journey.
                     </p>
                     <div className='flex gap-2 [&_img]:cursor-pointer [&_img]:hover:translate-y-[-10px] [&_img]:transition-all [&_img]:duration-500'>
-                        <img src="facebook_icon.svg" alt="" />
-                        <img src="twitter_icon.svg" alt="" />
-                        <img src="linkdin_icon.svg" alt="" />
-                        <img src="insta_icon.svg" alt="" />
-                        <img src="youtube_icon.svg" alt="" />
+                        <img src="facebook_icon.svg" loading="lazy" alt="" />
+                        <img src="twitter_icon.svg" loading="lazy" alt="" />
+                        <img src="linkdin_icon.svg" loading="lazy" alt="" />
+                        <img src="insta_icon.svg" loading="lazy" alt="" />
+                        <img src="youtube_icon.svg" loading="lazy" alt="" />
                     </div>
 
                 </div>
