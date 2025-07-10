@@ -10,7 +10,7 @@ export default function Footer() {
                     {/* logo */}
                         <div>
                             <div className='w-22 sm:w-28 bg-white'>
-                                <img src="/logo.png" loading="lazy" alt="" />
+                                <img src="https://res.cloudinary.com/jpcloud21/image/upload/f_auto,q_auto/xe8w4cunzxglk6r8kfgh" loading="lazy" alt="" />
                             </div>
                         </div>
                     <p className='text-[1.125rem] font-light py-3 w-[75%] lg:w-auto'>Gauabhayaranyam is a platform that helps you turn unused items into 
