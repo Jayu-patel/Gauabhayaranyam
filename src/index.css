@@ -6,6 +6,9 @@ html {
   cursor: default;
 }
 
+.links .active{
+  border-color: #579B52;
+}
 body{
   font-family: 'Outfit', sans-serif;
 }

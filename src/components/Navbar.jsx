@@ -23,17 +23,28 @@ export default function Navbar() {
             </div>
 
             <div className='flex items-center'>
-                <ul className='hidden md:flex justify-between md:w-[70vw] lg:w-[700px] mr-[15%]'>
+                <ul className='hidden md:flex justify-between md:w-[70vw] lg:w-[700px] mr-[15%] links'>
                     {
                         links.map((link,index)=>{
-                            return <Link key={index} to={link.to} className="cursor-pointer" offset={-120} smooth={true} duration={200}>{link.name}</Link>
+                            return (
+                                <Link 
+                                    className="cursor-pointer border-b-3 border-[#F8F7F2] hover:border-[#579B52] transition-all duration-300" 
+                                    key={index}
+                                    spy={true}
+                                    activeClass="active"
+                                    to={link.to}
+                                    offset={-120} 
+                                    smooth={true} 
+                                    duration={200}>{link.name}
+                                </Link>
+                            )
                         })
                     }
                 </ul>
 
                 {/*menu icon for mobile*/}
                 <img onClick={()=>{setShowMenu(true)}} className='w-6 md:hidden mr-8 cursor-pointer' src="/menu_icon.svg" alt="" />
-                <div className={`${showMenu ? 'fixed w-full' : 'h-0 w-0'} md:hidden right-0 top-0 bottom-0 z-20 overflow-hidden bg-white transition-all`}>
+                <div className={`${showMenu ? 'fixed w-full' : 'h-0 w-0'} md:hidden right-0 top-0 bottom-0 z-20 overflow-hidden bg-white transition-all duration-300`}>
                 <img className='w-7 m-4 cursor-pointer' onClick={()=>{setShowMenu(false)}} src="/cross_icon.png" alt="" />
                 <ul className='flex flex-col items-center gap-4 mt-5 px-5 text-lg font-medium'>
                     {
