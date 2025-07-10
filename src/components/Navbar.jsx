@@ -14,12 +14,12 @@ export default function Navbar() {
     ])
     
     return (
-        <div className='bg-[#F8F7F2] flex justify-between z-50 top-0 sticky overflow-hidden'>
+        <div className='bg-[#F8F7F2] w-screen flex justify-between z-50 top-0 sticky overflow-hidden'>
             
             <div className='ml-[7.5%]'>
-                <a href="#home">
+                <Link offset={-120} smooth={true} to="home" duration={200} className="cursor-pointer">
                     <Logo/>
-                </a>
+                </Link>
             </div>
 
             <div className='flex items-center'>
